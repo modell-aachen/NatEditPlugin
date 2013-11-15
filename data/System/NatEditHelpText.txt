@@ -1,0 +1,6 @@
+%META:TOPICINFO{author="ProjectContributor" date="1175516990" format="1.1" version="$Rev$"}%
+%META:TOPICPARENT{name="NatEditPlugin"}%
+---+ %TOPIC%
+Help text for the NatEditPlugin editor
+
+%STARTSECTION{"default"}%%INCLUDE{"%SYSTEMWEB%.EditingShorthand"}%%ENDSECTION{"default"}%

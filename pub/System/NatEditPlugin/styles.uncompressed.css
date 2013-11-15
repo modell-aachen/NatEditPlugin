@@ -1,0 +1,158 @@
+/* natedit base styles */
+.natEdit {
+  margin:0 10px 0 0;
+}
+.natEditContainer {
+  margin-top:1em;
+}
+.natEditContainer .jqTabContents {
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+.natEdit textarea,
+.natEditTextArea {
+  /* working around IE8 textarea bugs: make it think it gets a fixed width but then junk in min and max width 100% */
+  width:500px !important; 
+  min-width:100%;
+  max-width:100%;
+
+  font-family:"Bitstream Vera Sans Mono", "Andale Mono", monospace;
+  font-size:12px;
+  line-height:1.5em;
+  resize: none;
+}
+ul.natEditButtonBox {
+  margin:0px 10px 0px 0px;
+  padding:0px;
+  float:left;
+}
+ul.natEditHelpTools {
+  float:right;
+}
+.natEditHiddenToolBar {
+  visibility:hidden; /* becomes visible during load event */
+}
+
+.natEditBottomBar {
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.natEditBottomBar ul {
+  margin:0px;
+  padding:0px; 
+}
+.natEditBottomBar ul li,
+.natEditToolBar ul li {
+  display:inline;
+  padding:0px;
+  margin:0px;
+  list-style:none;
+  background:inherit;
+}
+#topic_resize,
+#topic_2WYSIWYG,
+#wysiwyg {
+  display:none;
+}
+#topic_tbl, #topic_ifr {
+  width:100% !important; 
+}
+.natEditToolBar ul li a span {
+  display:none;
+}
+
+.natEditToolBar a:hover,
+.natEditToolBar a {
+  text-decoration:none;
+  background-color:transparent;
+  background-repeat:no-repeat;
+  float:left;
+}
+
+.natEditTopicInfo {
+  margin:0em 0em 0.5em;
+}
+.natEditForceNewRevision label,
+.natEditForceNewRevision input {
+  margin:4px;
+  border:0px;
+  vertical-align:middle;
+}
+.natEditFontButtons {
+  margin:0.5em;
+  float:right;
+}
+
+.foswikiForm {
+  clear:both;
+}
+
+/* RevCommentPlugin support */
+.revComment {
+  margin:0.5em 0px;
+}
+.revComment label {
+  font-weight:bold;
+}
+.revComment input {
+  width:80%;
+}
+.natEditDoneButton img,
+.natEditCancelButton  img {
+  border:0px;
+}
+
+/* dialogs */
+.natEditInsertLink .jqTabContents {
+  margin-bottom:1em;
+}
+.natEditInsertLink h3 {
+  float:left;
+  width:50px;
+  margin-left:1px;
+}
+.natEditInsertLink .foswikiInputField {
+  width:380px;
+}
+.natEditInsertLink .natEditAttachments ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.natEditInsertLink .natEditAttachments li {
+  width:100%;
+  float:left;
+}
+.natEditInsertLink .natEditAttachments li:last-child {
+  margin-bottom:0;
+  border-bottom:0;
+}
+.natEditInsertLink .natEditAttachmentsInfo {
+  margin-left:4em;
+}
+
+.natEditInsertLink .natEditAttachments input {
+  display:none;
+}
+
+/* pattern skin tweaks */
+.patternEditPage #patternMainContents {
+  margin:0 !important;
+  padding:1em 1em 0 !important;
+}
+.patternEditPage .foswikiTopic {
+  margin-top:0 !important;
+  margin-bottom:0 !important;
+}
+.patternEditPage .natEditTitle {
+  font-size:145%;
+  margin-top:0;
+}
+.patternEditPage .natEditTitle a:link,
+.patternEditPage .natEditTitle a:visited {
+  color:inherit;
+}
+.patternEditPage #EditForm h2 {
+  margin-top:0;
+  font-size:127%;
+}
