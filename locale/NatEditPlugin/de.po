@@ -305,7 +305,7 @@ msgstr "&&ouml;ffentliche Leserechte"
 
 #: templates/edit.natedit.tmpl:6
 msgid "restore"
-msgstr "Wiederherstellen"
+msgstr "wiederherstellen"
 
 #: templates/editform.natedit.tmpl:3
 msgid "restore form"
