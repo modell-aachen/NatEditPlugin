@@ -78,7 +78,7 @@ msgstr "Dokumentation"
 
 #: templates/previewtoolbar.natedit.tmpl:14
 msgid "Edit"
-msgstr "Editieren"
+msgstr "Bearbeiten"
 
 #: templates/editdialog.natedit.tmpl:20
 #, fuzzy
