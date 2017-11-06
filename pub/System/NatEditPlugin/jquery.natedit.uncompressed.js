@@ -550,7 +550,7 @@ $.NatEditor.prototype.getSelectionRange = function() {
     $(self.txtarea).focus();
    
     text = self.txtarea.value;
-    c = "\01";
+    c = "\x01";
     range = document.selection.createRange();
     selection = range.text || "";
     rangeCopy = range.duplicate();
